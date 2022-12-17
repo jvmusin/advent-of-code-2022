@@ -208,8 +208,6 @@ fun main() {
                                 }
                             }
 
-                            // TODO: BUG HERE IN IDEA AFTER ADDING SORTED BY AS IN PART 1
-                            //  Here shows incorrect type alias: Position instead of Score
                             val dist2 = dist[pos2]
                             for ((mask, score) in current.entries.toList()) {
                                 var extra = 0
